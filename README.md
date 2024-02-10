@@ -1,3 +1,52 @@
+# Landslide Detection with Hyperspectral Imaging using U-Net
+
+## Overview
+
+This repository contains the code for a U-Net model designed for Landslide Detection using hyperspectral imaging data. The project is developed in the context of the GeoPlaNet Program, addressing challenges in identifying and analyzing landslides with a focus on applications to planetary geology, particularly on Mars.
+
+## Code Structure
+
+- **Data Preparation:**
+  - Modules for loading, preprocessing, and organizing training and validation data in HDF5 format.
+  - Training data includes hyperspectral channels relevant to landslide detection.
+
+- **U-Net Model Architecture:**
+  - Implementation of a U-Net model using TensorFlow and Keras.
+  - Customized for binary segmentation tasks, specifically detecting landslides.
+
+- **Training the Model:**
+  - Training script initializes the U-Net model, compiles it with appropriate metrics, and uses callbacks for model checkpointing.
+  - Training data is loaded and preprocessed for landslide detection.
+
+- **Validation and Evaluation:**
+  - Validation data is loaded and preprocessed similarly to training data.
+  - The trained model is evaluated on the validation set, with metrics including loss, accuracy, F1 score, precision, and recall.
+
+## Usage
+
+1. **Data Preparation:**
+   - Organize training and validation data in HDF5 format with hyperspectral channels.
+   - Normalize and process data as specified in the provided preprocessing scripts.
+
+2. **Training:**
+   - Run the training script, providing paths to training and validation data.
+   - The model will be saved, and checkpoints will be created during training.
+
+3. **Evaluation:**
+   - After training, use the saved model to evaluate on new hyperspectral data for landslide detection.
+
+## Requirements
+
+- Python 3.x
+- TensorFlow
+- Keras
+- NumPy
+- Matplotlib
+- h5py
+
+## Acknowledgments
+
+This project is developed for Landslide Detection with Hyperspectral Imaging under the GeoPlaNet Program. Special thanks to Professor Laetitia le Deit and the LPG research group for inspiration.
 
 British Airways Data Science Programme - README
 Overview
