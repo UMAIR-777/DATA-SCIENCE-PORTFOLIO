@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the code for a U-Net model designed for Landslide Detection using hyperspectral imaging data. The project is developed in the context of the GeoPlaNet Program, addressing challenges in identifying and analyzing landslides with a focus on applications to planetary geology, particularly on Mars.
+This repository contains the code for a U-Net model designed for Landslide Detection using hyperspectral imaging data. The project is developed to identifying and analyzing landslides areas.
 
 ## Code Structure
 
