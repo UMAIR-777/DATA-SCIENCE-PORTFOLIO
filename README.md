@@ -46,7 +46,6 @@ This repository contains the code for a U-Net model designed for Landslide Detec
 
 ## Acknowledgments
 
-This project is developed for Landslide Detection with Hyperspectral Imaging under the GeoPlaNet Program. Special thanks to Professor Laetitia le Deit and the LPG research group for inspiration.
 
 British Airways Data Science Programme - README
 Overview
